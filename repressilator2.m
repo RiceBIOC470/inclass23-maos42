@@ -1,6 +1,6 @@
-function dx = repressilator(t,x)
+function dx = repressilator2(t,x)
 
-k = 0.1; k2 = 5; n = 4;
+k = 0.1; k2=2; n = 4;
 
 dx = zeros(3,1);
 dx(1) = k*(1-x(1))-k2*x(3)^n/(1+x(3)^n)*x(1);
